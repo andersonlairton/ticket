@@ -42,7 +42,7 @@
             },
             
             init_instance_callback: function (editor) {
-                editor.on("keydown", function (e) {
+                editor.on("keyup", function (e) {
                     console.log(e.key);
                    var qt= this.contentDocument.body.innerText.length;
                     var i=0;
